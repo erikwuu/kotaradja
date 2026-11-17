@@ -1234,13 +1234,13 @@ address {
   max-width: 520px;
   margin-top: 23px;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.65;
 }
 
 .hours-note span {
   color: var(--gold);
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.7;
 }
 
