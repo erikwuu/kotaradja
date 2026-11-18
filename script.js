@@ -70,7 +70,7 @@
     let state;
 
     if (!serviceDay) {
-      message = "Vandaag gesloten · feestdagen uitgezonderd";
+      message = "Maandag gesloten · op feestdagen open vanaf 16:00";
       state = "closed";
     } else if (minutes < opensAt) {
       message = "Vandaag geopend vanaf 16:00";
