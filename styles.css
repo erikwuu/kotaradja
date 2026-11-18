@@ -71,7 +71,7 @@ body {
   background: var(--cream);
   color: var(--ink);
   font-family: var(--sans);
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -157,7 +157,7 @@ address {
   padding: 12px 18px;
   background: var(--cream);
   color: var(--red-700);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   transform: translateY(-150%);
   transition: transform 0.2s ease;
@@ -223,9 +223,9 @@ address {
   align-items: center;
   gap: 13px;
   color: var(--red-600);
-  font-size: 10px;
+  font-size: 11.5px;
   font-weight: 700;
-  letter-spacing: 0.28em;
+  letter-spacing: 0.22em;
   line-height: 1.4;
   text-transform: uppercase;
 }
@@ -270,13 +270,13 @@ address {
   align-items: center;
   justify-content: center;
   gap: 11px;
-  min-height: 54px;
+  min-height: 58px;
   padding: 15px 25px;
   border: 1px solid transparent;
   border-radius: 0;
-  font-size: 10.5px;
+  font-size: 12.5px;
   font-weight: 700;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.12em;
   line-height: 1.2;
   text-align: center;
   text-transform: uppercase;
@@ -384,7 +384,7 @@ address {
   background: rgba(30, 4, 5, 0.34);
   color: var(--gold-bright);
   font-family: var(--chinese);
-  font-size: 10.5px;
+  font-size: 11px;
   line-height: 0.9;
   letter-spacing: -0.06em;
 }
@@ -405,7 +405,7 @@ address {
 .brand-place {
   margin-top: 6px;
   color: var(--gold);
-  font-size: 7.5px;
+  font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.38em;
   line-height: 1;
@@ -423,9 +423,9 @@ address {
   position: relative;
   padding: 10px 0;
   color: rgba(251, 246, 234, 0.74);
-  font-size: 10px;
+  font-size: 11.5px;
   font-weight: 600;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.11em;
   text-transform: uppercase;
   transition: color 0.25s ease;
 }
@@ -467,7 +467,7 @@ address {
   padding: 11px 14px;
   border: 1px solid rgba(199, 161, 91, 0.38);
   color: var(--gold-bright);
-  font-size: 9.5px;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.13em;
   transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
@@ -587,7 +587,7 @@ address {
 .mobile-nav a span {
   color: var(--gold);
   font-family: var(--sans);
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.18em;
 }
@@ -605,7 +605,7 @@ address {
 .mobile-menu-foot p {
   margin-bottom: 20px;
   color: rgba(251, 246, 234, 0.55);
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.13em;
   text-transform: uppercase;
 }
@@ -711,7 +711,7 @@ address {
 .hero-emblem-top,
 .hero-emblem-bottom {
   color: rgba(251, 246, 234, 0.5);
-  font-size: 8px;
+  font-size: 9.5px;
   font-weight: 700;
   letter-spacing: 0.24em;
   line-height: 1.5;
@@ -735,9 +735,9 @@ address {
   flex-wrap: wrap;
   gap: 13px;
   color: rgba(251, 246, 234, 0.66);
-  font-size: 9.5px;
+  font-size: 11px;
   font-weight: 600;
-  letter-spacing: 0.24em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   animation: heroRise 0.9s var(--ease) 0.08s both;
 }
@@ -774,9 +774,9 @@ address {
   margin-top: clamp(25px, 3.5vw, 36px);
   color: rgba(251, 246, 234, 0.62);
   font-family: var(--sans);
-  font-size: clamp(8.5px, 0.8vw, 10px);
+  font-size: clamp(10px, 0.82vw, 11.5px);
   font-weight: 600;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.24em;
   line-height: 1.5;
   text-transform: uppercase;
 }
@@ -785,7 +785,7 @@ address {
   max-width: 545px;
   margin-top: 25px;
   color: rgba(251, 246, 234, 0.75);
-  font-size: clamp(0.92rem, 1.08vw, 1.02rem);
+  font-size: clamp(1.03rem, 1.15vw, 1.15rem);
   line-height: 1.76;
   animation: heroRise 1s var(--ease) 0.26s both;
 }
@@ -811,12 +811,12 @@ address {
   display: inline-flex;
   align-items: center;
   gap: 9px;
-  padding: 9px 14px;
+  padding: 10px 16px;
   border: 1px solid rgba(199, 161, 91, 0.32);
   border-radius: 999px;
   background: rgba(251, 246, 234, 0.045);
   color: rgba(251, 246, 234, 0.82);
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 600;
   letter-spacing: 0.08em;
   line-height: 1.4;
@@ -866,14 +866,6 @@ address {
   text-transform: uppercase;
 }
 
-.lead) {
-  max-width: 570px;
-  margin-top: 17px;
-  color: var(--muted);
-  font-size: 14.5px;
-  line-height: 1.78;
-}
-
 /* ---------- Menu section ---------- */
 
 .menu-section {
@@ -915,7 +907,7 @@ address {
   max-width: 500px;
   margin-top: 25px;
   color: rgba(251, 246, 234, 0.68);
-  font-size: 14.5px;
+  font-size: 16px;
   line-height: 1.78;
 }
 
@@ -973,10 +965,10 @@ address {
   display: inline-flex;
   align-items: center;
   gap: 9px;
-  padding: 11px 14px;
+  padding: 12px 16px;
   background: var(--cream);
   color: var(--red-700);
-  font-size: 8.5px;
+  font-size: 10.5px;
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -1016,7 +1008,7 @@ address {
 .menu-stamp span:last-child {
   margin-top: 4px;
   color: var(--gold-bright);
-  font-size: 6.5px;
+  font-size: 8px;
   font-weight: 700;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -1044,7 +1036,7 @@ address {
   max-width: 520px;
   margin-top: 22px;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.7;
 }
 
@@ -1090,15 +1082,15 @@ address {
 
 .call-band-copy small {
   color: rgba(251, 246, 234, 0.72);
-  font-size: 7px;
+  font-size: 10px;
   font-weight: 700;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
 }
 
 .call-band-copy strong {
   font-family: var(--display);
-  font-size: 27px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 1;
   letter-spacing: 0.01em;
@@ -1143,7 +1135,7 @@ address {
   max-width: 470px;
   margin-top: 23px;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.75;
 }
 
@@ -1152,11 +1144,11 @@ address {
   align-items: center;
   gap: 10px;
   margin-top: 27px;
-  padding: 10px 14px;
+  padding: 11px 16px;
   border: 1px solid rgba(124, 21, 24, 0.15);
   background: rgba(238, 224, 199, 0.68);
   color: var(--red-700);
-  font-size: 9.5px;
+  font-size: 11.5px;
   font-weight: 700;
   letter-spacing: 0.06em;
   line-height: 1.4;
@@ -1177,13 +1169,13 @@ address {
 
 .hours-table th {
   color: var(--ink);
-  font-size: 12.5px;
+  font-size: 14.5px;
   text-align: left;
 }
 
 .hours-table td {
   color: var(--muted);
-  font-size: 12.5px;
+  font-size: 14.5px;
   text-align: right;
   font-variant-numeric: tabular-nums;
   letter-spacing: 0.02em;
@@ -1193,9 +1185,9 @@ address {
   display: inline-block;
   margin-left: 8px;
   color: #8e7b70;
-  font-size: 8.5px;
+  font-size: 11px;
   font-weight: 600;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
@@ -1234,13 +1226,13 @@ address {
   max-width: 520px;
   margin-top: 23px;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.65;
 }
 
 .hours-note span {
   color: var(--gold);
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.7;
 }
 
@@ -1290,7 +1282,7 @@ address {
   gap: 3px;
   margin-top: 25px;
   color: rgba(251, 246, 234, 0.68);
-  font-size: 12.5px;
+  font-size: 14.5px;
   line-height: 1.6;
 }
 
@@ -1313,7 +1305,7 @@ address {
   border-bottom: 1px solid rgba(199, 161, 91, 0.45);
   color: var(--gold-bright);
   font-family: var(--display);
-  font-size: 23px;
+  font-size: 26px;
   line-height: 1;
   transition: color 0.25s ease, border-color 0.25s ease;
 }
@@ -1379,7 +1371,7 @@ address {
   padding: 6px 8px;
   background: rgba(251, 246, 234, 0.9);
   color: #5b5148;
-  font-size: 7.5px;
+  font-size: 9.5px;
   font-weight: 600;
   letter-spacing: 0.04em;
   transition: color 0.25s ease, background 0.25s ease;
@@ -1397,7 +1389,7 @@ address {
   padding: 7px 9px;
   background: var(--cream);
   color: var(--red-700);
-  font-size: 7.5px;
+  font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.13em;
   text-transform: uppercase;
@@ -1452,7 +1444,7 @@ address {
 
 .footer-brand > p {
   color: rgba(251, 246, 234, 0.55);
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.8;
 }
 
@@ -1463,7 +1455,7 @@ address {
   padding-bottom: 4px;
   border-bottom: 1px solid rgba(199, 161, 91, 0.34);
   color: var(--gold);
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -1478,7 +1470,7 @@ address {
 .footer-column h3 {
   margin-bottom: 21px;
   color: var(--gold);
-  font-size: 8.5px;
+  font-size: 10.5px;
   font-weight: 700;
   letter-spacing: 0.23em;
   text-transform: uppercase;
@@ -1490,7 +1482,7 @@ address {
   flex-direction: column;
   gap: 7px;
   color: rgba(251, 246, 234, 0.57);
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.7;
 }
 
@@ -1508,7 +1500,7 @@ address {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 7px;
+  gap: 10px;
 }
 
 .footer-bottom {
@@ -1520,7 +1512,7 @@ address {
   padding-top: 23px;
   border-top: 1px solid rgba(199, 161, 91, 0.16);
   color: rgba(251, 246, 234, 0.35);
-  font-size: 8.5px;
+  font-size: 10.5px;
   letter-spacing: 0.06em;
 }
 
@@ -1545,7 +1537,7 @@ address {
 .monthly-note h3 {
   color: var(--gold-bright);
   font-family: var(--display);
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 500;
   line-height: 1;
   letter-spacing: -0.02em;
@@ -1554,7 +1546,7 @@ address {
 .monthly-note p {
   margin-top: 9px;
   color: rgba(251, 246, 234, 0.62);
-  font-size: 12.5px;
+  font-size: 15px;
   line-height: 1.7;
 }
 
@@ -1566,9 +1558,9 @@ address {
   padding-bottom: 5px;
   border-bottom: 1px solid rgba(199, 161, 91, 0.4);
   color: var(--gold-bright);
-  font-size: 8.5px;
+  font-size: 11px;
   font-weight: 700;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.13em;
   text-transform: uppercase;
   transition: color 0.25s ease, border-color 0.25s ease, gap 0.25s ease;
 }
@@ -1601,7 +1593,7 @@ address {
   display: block;
   margin-bottom: 24px;
   color: var(--red-600);
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.14em;
 }
@@ -1617,7 +1609,7 @@ address {
 .service p {
   margin-top: 11px;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 15.5px;
   line-height: 1.75;
 }
 
@@ -1689,7 +1681,7 @@ address {
 }
 
 .dialog-head .eyebrow {
-  font-size: 8.5px;
+  font-size: 10.5px;
 }
 
 .dialog-title {
@@ -1744,12 +1736,12 @@ address {
 }
 
 .menu-tab {
-  min-width: 85px;
-  padding: 8px 14px;
+  min-width: 95px;
+  padding: 10px 15px;
   border: 0;
   background: transparent;
   color: var(--muted);
-  font-size: 8.5px;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.13em;
   text-transform: uppercase;
@@ -1769,7 +1761,7 @@ address {
   padding-bottom: 3px;
   border-bottom: 1px solid rgba(124, 21, 24, 0.3);
   color: var(--red-700);
-  font-size: 8.5px;
+  font-size: 10.5px;
   font-weight: 700;
   letter-spacing: 0.13em;
   text-transform: uppercase;
@@ -1810,7 +1802,7 @@ address {
   width: fit-content;
   margin: 13px auto 0;
   color: var(--red-700);
-  font-size: 8.5px;
+  font-size: 10.5px;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -1834,7 +1826,7 @@ address {
 
 .dialog-foot p {
   color: var(--muted);
-  font-size: 10.5px;
+  font-size: 13px;
 }
 
 .dialog-foot p a {
@@ -1905,7 +1897,7 @@ address {
   }
 
   .primary-nav a {
-    font-size: 9.5px;
+    font-size: 11px;
   }
 
   .menu-grid, .hours-grid {
@@ -1997,7 +1989,7 @@ address {
     width: 38px;
     height: 38px;
     padding: 3px;
-    font-size: 9px;
+    font-size: 9.5px;
   }
 
   .brand-name {
@@ -2006,7 +1998,7 @@ address {
 
   .brand-place {
     margin-top: 5px;
-    font-size: 6.5px;
+    font-size: 8px;
   }
 
   .phone-link {
@@ -2038,13 +2030,13 @@ address {
 
   .hero-descriptor {
     margin-top: 22px;
-    font-size: 8px;
+    font-size: 10.5px;
     letter-spacing: 0.24em;
   }
 
   .hero-lede {
     margin-top: 21px;
-    font-size: 13.5px;
+    font-size: 16px;
   }
 
   .hero-actions {
@@ -2063,7 +2055,7 @@ address {
   }
 
   .status-pill {
-    font-size: 8.5px;
+    font-size: 11px;
   }
 
   .section {
@@ -2075,7 +2067,7 @@ address {
   }
 
   .eyebrow {
-    font-size: 9px;
+    font-size: 10.5px;
   }
 
   .eyebrow::before {
@@ -2088,10 +2080,6 @@ address {
 
   .menu-grid, .hours-grid {
     gap: 44px;
-  }
-
-  .lead) {
-    font-size: 13.5px;
   }
 
   .menu-visual {
@@ -2113,7 +2101,7 @@ address {
     right: 17px;
     bottom: 17px;
     padding: 9px 11px;
-    font-size: 7.5px;
+    font-size: 9.5px;
   }
 
   .menu-actions {
@@ -2211,7 +2199,7 @@ address {
 @media (max-width: 430px) {
   .hero-kicker {
     gap: 9px;
-    font-size: 8px;
+    font-size: 10px;
     letter-spacing: 0.17em;
   }
 
@@ -2220,17 +2208,17 @@ address {
   }
 
   .hero-descriptor {
-    font-size: 7.5px;
+    font-size: 10px;
   }
 
   .status-pill {
     padding: 8px 11px;
-    font-size: 8px;
+    font-size: 10.5px;
   }
 
   .menu-actions .btn {
-    min-height: 51px;
-    font-size: 9.5px;
+    min-height: 56px;
+    font-size: 12px;
   }
 }
 
@@ -2255,3 +2243,22 @@ address {
 }
 
 /* ---------- Production additions ---------- */
+
+@media (max-width: 700px) {
+  .hours-table td small {
+    display: block;
+    margin-left: 0;
+    margin-top: 3px;
+  }
+}
+
+.footer-column nav a {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+@media (max-width: 700px) {
+  .menu-tab {
+    min-width: 88px;
+  }
+}
